@@ -1,13 +1,16 @@
 **Description**
 * Only controller support has been tested
 * Uses Goldberg and Nemirting
-* Works for controllers (Joining the lobby is difficult)
+* Works for controllers ~~[(Joining the lobby is difficult)](73b5c46287e833239a2c4c7d78193afd3484b771)~~
 * No 2nd player profile saves
 * Steam must be closed to prevent controller stealing
 
+**Notes**
+* Cursor may duplicate accross both instances. Lock input and then unlock input to remediate.
+
 **Issues**
-* Navigating the menu is difficult as the simulated cursor does not show, so navigating is unintuitive
 * If the emulated Steam Overlay is launched, you will not be able to close the overlay.
+* ~~[Navigating the menu is difficult as the simulated cursor does not show, so navigating is unintuitive](73b5c46287e833239a2c4c7d78193afd3484b771)~~
 
 **Screenshots**
 ![ProjectCoral-Win64-Shipping_JYZVQ41mJk](https://github.com/user-attachments/assets/5500a074-34c4-40f8-8f99-94cebfcd9a79)
