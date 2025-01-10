@@ -35,11 +35,12 @@ Game.Hook.CustomDllEnabled = false;
 Game.SupportsKeyboard = true;
 Game.UserProfileSavePath = "AppData\\Local\\ProjectCoral\\Saved\\SaveGames";
 Game.UserProfileSavePathNoCopy = true;
+Game.UseNucleusEnvironment = true; 
 Game.Description =
-  "Create a Co-op game as normal. Press start, go to Party Management, carefully navigate to view the invite code (down, right). Second player join via invite code (Keyboard is trial and error due to the inability to see cursor position";
-Game.PauseBetweenStarts = 10;
+  "Upon launching the game, wait until Nucleus finalizes (Usually both displays will flash). If finalized properly, the cursor will be free to move between both instances. Navigate to Co-op and create a multiplayer save as normal. You can either use Left-Shift + Tab to invite the second player, or use the generated lobby code. After the second player has joined, lock the inputs (End by default), and then create a new character. When typing the characters name, unlock the inputs to have proper visability of the in-game keyboard. After naming is complete, lock the inputs and enjoy! Please note, the character(s) created by the non-host player, do not save until you sleep for the night, this is normal operation. When exiting the game, Unreal will crash the non-host player, this does not appear to cause issues, but the crash window needs to be closed to unlock the files accessed by Nucleus.";
+Game.PauseBetweenStarts = 15;
 Game.UseNemirtingasEpicEmu = true;
-
+Game.SupportsKeyboard = false; 
 
 
 
@@ -81,7 +82,7 @@ Game.LockInputAtStart = false;
 Game.LockInputSuspendsExplorer = true;
 
 // This is identical to the setting in ProtoInputHost. You should leave this on so the "fake" input is only sent when the "real" input isn't
-Game.ProtoInput.FreezeExternalInputWhenInputNotLocked = true;
+//Game.ProtoInput.FreezeExternalInputWhenInputNotLocked = true;
 
 // Sets the virtual keycode for locking input (End key by default)
 Game.LockInputToggleKey = 0x23;
