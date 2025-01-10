@@ -33,7 +33,7 @@ Game.Hook.XInputReroute = false;
 Game.XInputPlusDll = ["xinput1_3.dll"];
 Game.Hook.CustomDllEnabled = false;
 Game.SupportsKeyboard = true;
-Game.UserProfileSavePath = "AppData\\Local\\ProjectCoral\\Nucleus\\Saved\\SaveGames";
+Game.UserProfileSavePath = "AppData\\Local\\ProjectCoral\\Saved\\SaveGames";
 Game.UserProfileSavePathNoCopy = true;
 Game.Description =
   "Create a Co-op game as normal. Press start, go to Party Management, carefully navigate to view the invite code (down, right). Second player join via invite code (Keyboard is trial and error due to the inability to see cursor position";
