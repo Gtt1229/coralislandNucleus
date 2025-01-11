@@ -9,6 +9,7 @@
 * Cursor may duplicate accross both instances. Lock input and then unlock input to remediate.
 
 **Issues**
+* Navigating menu's can be easier if the Input is Unlocked, but players can not access selection screens (inventory, chests, etc) at the same time.
 * Fixed: ~~[If the emulated Steam Overlay is launched, you will not be able to close the overlay.](https://github.com/Gtt1229/coralislandNucleus/commit/1f707fea8c7e12e828d437ec6d3ddda8c0bbcb11#commitcomment-151197712)~~
 * Fixed: ~~[Navigating the menu is difficult as the simulated cursor does not show, so navigating is unintuitive](73b5c46287e833239a2c4c7d78193afd3484b771)~~
 
